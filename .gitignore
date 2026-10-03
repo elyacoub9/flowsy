@@ -1,0 +1,21 @@
+*.iml
+.gradle/
+.kotlin/
+.idea/
+local.properties
+build/
+/captures
+.externalNativeBuild
+.cxx
+.DS_Store
+*.jks
+*.keystore
+keystore.properties
+
+# Packages and local databases
+*.apk
+*.aab
+*.db
+*.db-wal
+*.db-shm
+*.bundle

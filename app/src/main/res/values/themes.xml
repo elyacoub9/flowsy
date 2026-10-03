@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark only. AppCompat parent is required for the in-app language switch. -->
+    <style name="Theme.FlowsyApp" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+</resources>

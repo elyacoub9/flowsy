@@ -1,0 +1,10 @@
+# releaseCheck only (the R8 build used to run instrumented tests): keep the libraries the test APK
+# shares with the app. Flowsy's own code stays obfuscated by R8.
+# Not applied to the real release build.
+-keep class androidx.** { *; }
+-keep class kotlin.** { *; }
+-keep class kotlinx.** { *; }
+# Tests call app members the app itself may not use (e.g. ALL_MIGRATIONS, the container setter):
+# keep them from being removed or inlined, but still renamed (allowobfuscation), so name-based
+# problems (Room, enum names in backups) are still caught.
+-keep,allowobfuscation class com.elyacoub9.flowsy.** { *; }

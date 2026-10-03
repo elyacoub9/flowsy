@@ -1,0 +1,10 @@
+# R8 keep rules for Flowsy (release and releaseCheck builds).
+# Room, AppCompat, Navigation and Compose ship their own rules; org.json is part of Android.
+
+# Backups store enum constants by name (data.json "type": "DEPOSIT") and read them back with
+# valueOf(). Keep the names so a backup made by a release build stays readable by any build.
+-keepclassmembers enum com.elyacoub9.flowsy.domain.** {
+    <fields>;
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}

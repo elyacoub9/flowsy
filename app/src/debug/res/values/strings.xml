@@ -1,0 +1,4 @@
+<resources>
+    <!-- Debug builds show a different launcher name so they are easy to tell apart. -->
+    <string name="app_name">Flowsy Debug</string>
+</resources>

@@ -1,0 +1,253 @@
+<resources>
+    <string name="app_name">Flowsy</string>
+
+    <!-- Navigation -->
+    <string name="nav_month">Mois</string>
+    <string name="nav_year">Année</string>
+    <string name="nav_savings">Épargne</string>
+    <string name="action_open_settings">Ouvrir les paramètres</string>
+    <string name="action_back">Retour</string>
+    <string name="action_next">Suivant</string>
+    <string name="action_start">Commencer</string>
+
+    <!-- Month -->
+    <string name="month_left">Reste</string>
+    <string name="month_over_label">Budget dépassé</string>
+    <string name="month_over_by">Dépassé de %s</string>
+    <string name="month_income">Revenus</string>
+    <string name="month_spent">Dépensé</string>
+    <string name="month_empty">Aucun revenu ni dépense ce mois-ci. Touchez + pour en ajouter.</string>
+    <string name="action_previous_month">Mois précédent</string>
+    <string name="action_next_month">Mois suivant</string>
+    <string name="month_spent_ratio">%1$s des revenus dépensés</string>
+    <string name="month_no_income">Aucun revenu ce mois-ci</string>
+    <string name="month_no_expenses">Aucune dépense pour l\'instant</string>
+    <string name="month_spending_title">Dépenses par catégorie</string>
+    <string name="donut_description">Dépenses par catégorie, total %1$s : %2$s</string>
+    <string name="donut_slice">%1$s %2$s, %3$s</string>
+    <string name="donut_hint">Touchez une part pour voir la catégorie</string>
+    <string name="donut_action_show">Afficher %s</string>
+    <string name="donut_action_total">Afficher le total dépensé</string>
+    <string name="day_totals_description">Revenus %1$s, dépenses %2$s</string>
+
+    <!-- Year -->
+    <string name="action_previous_year">Année précédente</string>
+    <string name="action_next_year">Année suivante</string>
+    <string name="year_totals_title">Totaux de l\'année</string>
+    <string name="year_chart_title">Revenus et dépenses par mois</string>
+    <string name="year_empty">Aucun enregistrement cette année</string>
+    <string name="month_no_records">Aucun enregistrement</string>
+    <string name="month_current">Ce mois-ci</string>
+    <string name="chart_description">Revenus et dépenses par mois : %1$s</string>
+    <string name="chart_month">%1$s : revenus %2$s, dépenses %3$s</string>
+    <string name="chart_month_no_records">%1$s : aucun enregistrement</string>
+    <string name="chart_hint">Touchez un mois pour voir ses montants</string>
+    <string name="action_add_record">Ajouter un revenu ou une dépense</string>
+    <string name="add_choice_title">Que voulez-vous ajouter ?</string>
+    <string name="record_expense">Dépense</string>
+    <string name="record_income">Revenu</string>
+    <string name="status_archived">Archivé</string>
+
+    <!-- Income -->
+    <string name="income_add_title">Nouveau revenu</string>
+    <string name="income_edit_title">Modifier le revenu</string>
+    <string name="income_saved">Revenu enregistré</string>
+    <string name="income_deleted">Revenu supprimé</string>
+    <string name="income_label_salary">Salaire</string>
+    <string name="income_label_freelance">Freelance</string>
+    <string name="income_label_bonus">Prime</string>
+    <string name="income_label_other">Autre</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome">Bienvenue sur Flowsy</string>
+    <string name="onboarding_step">Étape %1$d sur %2$d</string>
+    <string name="onboarding_language_title">Choisissez votre langue</string>
+    <string name="onboarding_currency_title">Choisissez votre devise</string>
+    <string name="onboarding_currency_hint">Vous pourrez la changer plus tard uniquement tant qu\'aucun montant n\'est enregistré.</string>
+    <string name="currency_search">Rechercher une devise</string>
+    <string name="currency_no_results">Aucune devise trouvée.</string>
+    <string name="currency_selected">Sélectionnée : %s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Paramètres</string>
+    <string name="settings_language">Langue</string>
+    <string name="settings_budget">Budget</string>
+    <string name="settings_currency">Devise</string>
+    <string name="currency_locked">Verrouillée : des revenus, dépenses ou épargnes existent</string>
+
+    <!-- Backup and restore -->
+    <string name="settings_backup">Sauvegarde</string>
+    <string name="action_backup">Sauvegarder</string>
+    <string name="action_restore_backup">Restaurer une sauvegarde</string>
+    <string name="backup_saved">Sauvegarde enregistrée</string>
+    <string name="backup_failed">La sauvegarde a échoué. Aucun fichier n\'a été conservé.</string>
+    <string name="restore_working">Veuillez patienter…</string>
+    <string name="restore_title">Restaurer cette sauvegarde ?</string>
+    <string name="restore_preview_date">Faite le %s</string>
+    <string name="restore_preview_currency">Devise : %s</string>
+    <string name="restore_count_income">Revenus : %d</string>
+    <string name="restore_count_expenses">Dépenses : %d</string>
+    <string name="restore_count_categories">Catégories : %d</string>
+    <string name="restore_count_pots">Cagnottes : %d</string>
+    <string name="restore_count_movements">Opérations d\'épargne : %d</string>
+    <string name="restore_warning">Toutes les données actuelles seront remplacées.</string>
+    <string name="action_replace_all">Remplacer toutes les données</string>
+    <string name="restore_refused_title">Restauration impossible</string>
+    <string name="restore_failed">La restauration a échoué. Vos données actuelles n\'ont pas changé.</string>
+    <string name="restore_error_corrupt">Ce fichier est endommagé ou n\'est pas une sauvegarde Flowsy.</string>
+    <string name="restore_error_missing">Cette sauvegarde est incomplète : un fichier manque.</string>
+    <string name="restore_error_too_large">Cette sauvegarde est trop volumineuse.</string>
+    <string name="restore_error_format">Ce n\'est pas une sauvegarde Flowsy.</string>
+    <string name="restore_error_newer">Cette sauvegarde vient d\'une version plus récente de Flowsy. Mettez l\'application à jour d\'abord.</string>
+    <string name="restore_error_too_old">Cette sauvegarde est trop ancienne pour être restaurée.</string>
+    <string name="restore_error_settings">Cette sauvegarde contient des paramètres invalides.</string>
+    <string name="restore_error_currency">Cette sauvegarde contient une devise inconnue.</string>
+    <string name="restore_error_duplicate">Cette sauvegarde contient des enregistrements en double.</string>
+    <string name="restore_error_link">Cette sauvegarde contient des dépenses ou opérations sans leur catégorie ou cagnotte.</string>
+    <string name="restore_error_amount">Cette sauvegarde contient des montants ou des noms invalides.</string>
+    <string name="restore_error_date">Cette sauvegarde contient des dates impossibles.</string>
+    <string name="restore_error_pot">Cette sauvegarde contient une cagnotte sous 0.</string>
+    <string name="restore_error_built_in">Cette sauvegarde contient des catégories intégrées invalides.</string>
+    <string name="restore_error_other">Il manque la catégorie « Autre » dans cette sauvegarde.</string>
+    <string name="restore_error_category_name">Cette sauvegarde contient une catégorie sans nom.</string>
+
+    <!-- About -->
+    <string name="settings_about">À propos</string>
+    <string name="about_version">Version %s</string>
+    <string name="about_offline">Fonctionne hors ligne. Vos données restent sur ce téléphone.</string>
+    <string name="about_by">par %s</string>
+    <string name="about_signature">%1$s %2$s · par %3$s</string>
+
+    <!-- Language names are shown in their own language. -->
+    <string name="language_english">English</string>
+    <string name="language_french">Français</string>
+
+    <!-- Common actions -->
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Annuler</string>
+    <string name="action_save">Enregistrer</string>
+    <string name="action_delete">Supprimer</string>
+    <string name="action_archive">Archiver</string>
+    <string name="action_undo">Rétablir</string>
+
+    <!-- Form fields -->
+    <string name="field_amount">Montant</string>
+    <string name="field_label">Libellé</string>
+    <string name="field_date">Date</string>
+    <string name="field_note_optional">Note (facultatif)</string>
+    <string name="amount_error_empty">Saisissez un montant.</string>
+    <string name="amount_error_invalid">Saisissez un nombre, ex. 1250,50</string>
+    <string name="amount_error_decimals">Trop de décimales pour cette devise.</string>
+    <string name="amount_error_too_large">Montant trop élevé.</string>
+    <string name="amount_error_zero">Le montant doit être supérieur à 0.</string>
+    <string name="error_name_required">Saisissez un nom.</string>
+    <string name="error_label_required">Saisissez un libellé.</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_delete_title">Supprimer %s ?</string>
+    <string name="dialog_cannot_delete_title">Suppression impossible</string>
+
+    <!-- Built-in categories -->
+    <string name="category_groceries">Courses</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_transport">Transport</string>
+    <string name="category_bills">Factures</string>
+    <string name="category_health">Santé</string>
+    <string name="category_shopping">Shopping</string>
+    <string name="category_entertainment">Loisirs</string>
+    <string name="category_home">Maison</string>
+    <string name="category_other">Autre</string>
+    <string name="category_archived_tag">Catégorie archivée</string>
+
+    <!-- Category icons (spoken by screen readers) -->
+    <string name="icon_cart">Chariot</string>
+    <string name="icon_restaurant">Restaurant</string>
+    <string name="icon_coffee">Café</string>
+    <string name="icon_bus">Bus</string>
+    <string name="icon_car">Voiture</string>
+    <string name="icon_plane">Avion</string>
+    <string name="icon_health">Santé</string>
+    <string name="icon_sport">Sport</string>
+    <string name="icon_bag">Sac de courses</string>
+    <string name="icon_gift">Cadeau</string>
+    <string name="icon_movie">Film</string>
+    <string name="icon_house">Maison</string>
+    <string name="icon_bolt">Factures et énergie</string>
+    <string name="icon_phone">Téléphone</string>
+    <string name="icon_school">École</string>
+    <string name="icon_heart">Cœur</string>
+    <string name="icon_other">Autre</string>
+
+    <!-- Category colors -->
+    <string name="color_red">Rouge</string>
+    <string name="color_orange">Orange</string>
+    <string name="color_yellow">Jaune</string>
+    <string name="color_green">Vert</string>
+    <string name="color_teal">Bleu-vert</string>
+    <string name="color_cyan">Cyan</string>
+    <string name="color_blue">Bleu</string>
+    <string name="color_violet">Violet</string>
+    <string name="color_purple">Mauve</string>
+    <string name="color_pink">Rose</string>
+
+    <!-- Expenses -->
+    <string name="expense_add_title">Nouvelle dépense</string>
+    <string name="expense_edit_title">Modifier la dépense</string>
+    <string name="expense_saved">Dépense enregistrée</string>
+    <string name="expense_deleted">Dépense supprimée</string>
+    <string name="field_category">Catégorie</string>
+    <string name="error_category_required">Choisissez une catégorie.</string>
+    <string name="date_today">Aujourd\'hui</string>
+    <string name="date_yesterday">Hier</string>
+
+    <!-- Categories settings -->
+    <string name="settings_categories">Catégories</string>
+    <string name="categories_archived_title">Archivées</string>
+    <string name="action_add_category">Ajouter une catégorie</string>
+    <string name="action_restore">Restaurer</string>
+    <string name="action_restore_named">Restaurer %s</string>
+    <string name="action_move_up_named">Monter %s</string>
+    <string name="action_move_down_named">Descendre %s</string>
+    <string name="dialog_category_add_title">Nouvelle catégorie</string>
+    <string name="dialog_category_edit_title">Modifier la catégorie</string>
+    <string name="dialog_delete_category_message">Cette catégorie sera supprimée.</string>
+    <string name="dialog_cannot_delete_category_message">%s contient des dépenses. Archivez-la : elle sera masquée pour les nouvelles dépenses mais conservée sur les anciennes.</string>
+    <string name="field_name">Nom</string>
+    <string name="field_icon">Icône</string>
+    <string name="field_color">Couleur</string>
+    <string name="category_default_name_hint">Laissez vide pour utiliser le nom par défaut.</string>
+
+    <!-- Savings pots -->
+    <string name="savings_empty">Aucune cagnotte. Touchez + pour en créer une.</string>
+    <string name="savings_total">Épargne totale</string>
+    <string name="savings_archived_note">Non comptées dans l\'épargne totale</string>
+    <string name="pot_available">Disponible : %s</string>
+    <string name="pot_refused">Impossible : le solde passerait sous 0. Solde disponible : %s</string>
+    <string name="pot_opening_min">Trop bas : le solde d\'ouverture doit être d\'au moins %s.</string>
+    <string name="pot_read_only">Les cagnottes archivées sont en lecture seule. Restaurez-la pour la modifier.</string>
+    <string name="action_add_pot">Ajouter une cagnotte</string>
+    <string name="action_edit_pot">Modifier la cagnotte</string>
+    <string name="action_deposit">Verser</string>
+    <string name="action_withdraw">Retirer</string>
+    <string name="action_clear">Effacer</string>
+    <string name="dialog_pot_add_title">Nouvelle cagnotte</string>
+    <string name="dialog_pot_edit_title">Modifier la cagnotte</string>
+    <string name="dialog_edit_deposit_title">Modifier le versement</string>
+    <string name="dialog_edit_withdrawal_title">Modifier le retrait</string>
+    <string name="dialog_delete_pot_message">Cette cagnotte vide sera supprimée.</string>
+    <string name="field_pot_name">Nom (ex. Voyage)</string>
+    <string name="field_opening_balance">Solde de départ (déjà épargné)</string>
+    <string name="field_goal_optional">Objectif (facultatif)</string>
+    <string name="field_goal_date_optional">Date de l\'objectif (facultatif)</string>
+    <string name="goal_progress">%1$s sur %2$s, %3$s</string>
+    <string name="goal_reached">Objectif atteint</string>
+    <string name="goal_date_passed">Date de l\'objectif dépassée</string>
+    <string name="goal_by_date">D\'ici le %s</string>
+    <string name="pot_balance">Solde</string>
+    <string name="pot_opening_info">Inclut un solde de départ de %s</string>
+    <string name="pot_history">Historique</string>
+    <string name="pot_history_empty">Aucun versement ni retrait.</string>
+    <string name="movement_deposit">Versement</string>
+    <string name="movement_withdrawal">Retrait</string>
+    <string name="movement_deleted">Opération supprimée</string>
+</resources>
